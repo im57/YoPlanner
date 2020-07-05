@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">YoPlanner</string>
+
+    <string name="api_key">AIzaSyByVEttW_0M2BxQunUeDFddGgbrnsqaiZ8</string>
+
+    <string name="sur_api_url">https://maps.googleapis.com/maps/api/place/nearbysearch/xml?radius=1000&amp;language=ko&amp;key=AIzaSyBGnoh1S_-81TawajnZjeEv-Kwk_iDH8z0&amp;type=cafe&amp;location=</string>
+    <string name="sur_res_api_url">https://maps.googleapis.com/maps/api/place/nearbysearch/xml?radius=1000&amp;language=ko&amp;key=AIzaSyBGnoh1S_-81TawajnZjeEv-Kwk_iDH8z0&amp;type=restaurant&amp;location=</string>
+    <string name="sur_client_id">AIzaSyBGnoh1S_-81TawajnZjeEv-Kwk_iDH8z0</string>
+    <!--    <string name="sur_client_id">AIzaSyByVEttW_0M2BxQunUeDFddGgbrnsqaiZ8</string>-->
+    <string name="sur_detail_api_url">https://maps.googleapis.com/maps/api/place/details/xml?language=ko&amp;fields=name,rating,formatted_phone_number,vicinity,price_level,opening_hours,reviews&amp;key=AIzaSyBGnoh1S_-81TawajnZjeEv-Kwk_iDH8z0&amp;place_id=</string>
+
+    <string name="service_not_available">서비스를 사용할 수 없습니다.</string>
+    <string name="invalid_lat_long_used">잘못된 위도/경도 입니다.</string>
+    <string name="no_address_found">주소를 찾을 수 없습니다.</string>
+    <string name="address_found">주소를 찾았습니다.</string>
+    <string name="no_geocoder_available">사용가능한 Geocoder가 없습니다.</string>
+
+
+    <string name="kakao_app_key">0065bd4447af08062280b0f5fa886c35</string>
+    <string name="kakao_scheme">kakao0065bd4447af08062280b0f5fa886c35</string>
+    <string name="kakaolink_host">kakaolink</string>
+
+
+    <string name="facebook_app_id">582531348970436</string>
+    <string name="fb_login_protocol_scheme">fb582531348970436</string>
+
+</resources>
