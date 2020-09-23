@@ -83,6 +83,6 @@
 
 ---
 
-###### 시연
+###### Demo
 
 https://youtu.be/agMxf66BFK8
