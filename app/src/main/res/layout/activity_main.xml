@@ -1,76 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3" />
 
     <Button
         android:id="@+id/btnOpenAllPlanA"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:onClick="onClick"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_radius"
         android:fontFamily="casual"
-        android:text="전체 일정 보기" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3" />
+        android:onClick="onClick"
+        android:text="전체 일정"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddNewPlanA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnAddNewPlanA"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:onClick="onClick"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_radius"
         android:fontFamily="casual"
-        android:text="일정 입력" />
-
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:text="일정 추가"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSearchPlanA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenAllPlanA" />
+<!--
+    <Button
+        android:id="@+id/btnBookmark"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="3" />
-
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_radius"
+        android:fontFamily="casual"
+        android:onClick="onClick"
+        android:text="북마크"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSearchPlanA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddNewPlanA" />
+-->
     <Button
         android:id="@+id/btnSearchPlanA"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:onClick="onClick"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_radius"
         android:fontFamily="casual"
-        android:text="일정 검색" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3" />
+        android:onClick="onClick"
+        android:text="일정 검색"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMapA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddNewPlanA" />
 
     <Button
         android:id="@+id/btnMapA"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:onClick="onClick"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_radius"
         android:fontFamily="casual"
-        android:text="지도 보기" />
+        android:onClick="onClick"
+        android:text="지도 보기"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearchPlanA" />
 
-    <TextView
-        android:id="@+id/textView47"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3" />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

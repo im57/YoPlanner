@@ -38,12 +38,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
+        android:background="@drawable/button_radius"
         android:fontFamily="casual"
         android:onClick="onClick"
         android:text="START"
+        android:textColor="@android:color/white"
         android:textSize="30sp" />
 
     <TextView

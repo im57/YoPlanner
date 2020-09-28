@@ -17,6 +17,9 @@
         android:layout_weight="1"
         android:onClick="onClick"
         android:fontFamily="casual"
+        android:background="@drawable/button_radius"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         android:text="내용으로 검색" />
 
     <TextView
@@ -33,6 +36,9 @@
         android:layout_weight="1"
         android:onClick="onClick"
         android:fontFamily="casual"
+        android:background="@drawable/button_radius"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         android:text="날짜로 검색" />
 
     <TextView

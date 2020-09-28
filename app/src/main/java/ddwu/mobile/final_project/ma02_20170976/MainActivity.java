@@ -1,7 +1,6 @@
 package ddwu.mobile.final_project.ma02_20170976;
 
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,6 +8,12 @@ import android.view.MenuItem;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ddwu.mobile.final_project.ma02_20170976.bookmark.BookmarkActivity;
+import ddwu.mobile.final_project.ma02_20170976.plan.InsertPlanActivity;
+import ddwu.mobile.final_project.ma02_20170976.plan.PlanActivity;
+import ddwu.mobile.final_project.ma02_20170976.plan.SearchActivity;
+import ddwu.mobile.final_project.ma02_20170976.place.MapActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (v.getId()) {
             case R.id.btnOpenAllPlanA:
-                intent = new Intent(this, CalendarActivity.class);
+                intent = new Intent(this, PlanActivity.class);
                 break;
             case R.id.btnAddNewPlanA:
                 intent = new Intent(this, InsertPlanActivity.class);
@@ -34,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnMapA:
                 intent = new Intent(this, MapActivity.class);
                 break;
+//            case R.id.btnBookmark:
+//                intent = new Intent(this, BookmarkActivity.class);
+//                break;
         }
 
         if (intent != null) startActivity(intent);

@@ -6,39 +6,37 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:orientation="horizontal">
+        android:layout_height="20dp">
 
         <TextView
-            android:id="@+id/tvPlaceID"
+            android:id="@+id/tvPlaceName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="아이디"
-            android:textSize="14sp" />
+            android:hint="이름"
+            android:textColor="@color/mainText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tvOpen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp" />
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/mainDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/tvPlaceName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#3F51B5"
-        android:hint="이름" />
 
     <TextView
         android:id="@+id/tvVicinity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#3F51B5"
-        android:hint="주소" />
+        android:hint="주소"
+        android:textColor="@color/mainDark" />
 
 
 </LinearLayout>
