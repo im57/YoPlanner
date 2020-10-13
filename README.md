@@ -1,6 +1,6 @@
 # YO-Planner
 
-###### 계획적인 삶을 위해 필요한 planner, 그렇다면 YO-Planner
+###### 계획적인 삶을 위해 필요한 planner
 
 - 다양한 기능을 탑재한 플래너 앱
 
